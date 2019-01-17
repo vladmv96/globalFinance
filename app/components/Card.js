@@ -15,10 +15,6 @@ class Card extends Component {
         }
     }
 
-    componentDidUpdate = () => {
-        console.log('upd');
-    }
-    
     formatDate = (date) => {
         let dd = date.getDate();
         let mm = date.getMonth() + 1;
@@ -93,7 +89,6 @@ class Card extends Component {
         let income = (((price - buyPrice) * 100) / buyPrice).toFixed(2);
         if (income > 0) income = "+" + income;
         const realizationPercent = (((((price - buyPrice) * 100) / buyPrice) * 100) / (((sellPrice - buyPrice) * 100) / buyPrice)).toFixed(2);
-        console.log(name, openForm);
 
         return (
             <div className="card-box" key={key}>
