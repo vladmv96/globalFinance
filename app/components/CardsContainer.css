@@ -1,0 +1,35 @@
+.filters-container {
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.filters-container .container {
+    height: 100px;
+    position: relative;
+}
+
+.filters-container h2 {
+    position: absolute;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 300;
+    top: 20px;
+    right: 280px;
+}
+
+.filters-list {
+    position: absolute;
+    right: 170px;
+    top: 26px;
+    width: 100px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    border: 1px solid #d0d0d0;   
+}
+
+:active, :focus {
+    outline: none;
+}
