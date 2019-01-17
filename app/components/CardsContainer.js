@@ -52,7 +52,7 @@ class CardsContainer extends Component {
 
     renderData = (item) => {
         return <Card
-            key={item.id}
+            key={item._id}
             ideaDate={item.ideaDate}
             logoSrc={item.logoSrc}
             name={item.name}
