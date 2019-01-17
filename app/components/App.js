@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import Header from './Header';
-import CardsContainer from './CardsContainer';
+import React, { Component } from 'react'
+import Header from './Header'
+import CardsContainer from './CardsContainer'
 
 class App extends Component {
     render() {
@@ -9,8 +9,8 @@ class App extends Component {
                 <Header />
                 <CardsContainer />
             </div>
-        );
+        )
     }
 }
 
-export default App;
+export default App
